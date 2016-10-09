@@ -1,0 +1,369 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "64cfc84f-8dd8-11e6-9f35-d43d7e9a446c", 
+    "deck_config_uuid": "2cd65d71-8dd7-11e6-adbc-d43d7e9a446c", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "2cd65d71-8dd7-11e6-adbc-d43d7e9a446c", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "name": "Transcription ", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Text", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Cloze-1dc39", 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Cloze", 
+                    "ord": 0, 
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ], 
+            "type": 1, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Polymerase epsilon}} adds bases for {{c2::leading strand}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yUJ(Exek&~", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::RNA polymerase III}} makes {{c2::tRNA and U6 snRNA}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Mv)<{R|/wm", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::CTD}} is the docking site of proteins for {{c2::RNA transcription}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pQ9C3uWQ+E", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::TFII D}} binds to {{c2::DNA}} and recruits {{c3::RNA polymerase.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jP.:;lT0Rh", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::HSP70}} helps fold protein as it is ejected from the ribosome ({{c2::immediately}})", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hY:`ss_}~=", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::TFIIH}} unwinds {{c2::DNA}}, {{c3::phosphorylates}} {{c4::CTD}}, causing {{c5::promoter}}&nbsp;clearance", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e.#C+ZO1Tl", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::3-aminoacyl tRNA synthetase}} adds the specific {{c2::amino acids}} to its empty {{c3::tRNA}} &nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kM3z;n;lvn", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Single strand binding protein}} {{c2::stabilizes DNA when it is pulled apart during DNA replication (so it doesn't reanneal)}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w`A&Xga??}", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Polymerase I}} makes {{c2::rRNA}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rjsXI<F*Se", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c2::Wobble hypothesis}} is when {{c1::ionosine}} binds to {{c3::A, U, or C.}}&nbsp;", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rC/i`YbR[Q", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::senescence}} is the {{c2::state of cell stasis}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y/&J$som~}", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Topoisomerase 1 and 2}} {{c2::clips 1 and 2 DNA strands respectively to relieve torsion}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ko+$D}*6w&", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::HSP 90}} {{c3::sequesters binding sites of proteins to keep them in the proper formation}} and is shaped like a {{c2::V.&nbsp;}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e^af+d_H(I", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::DNA Polymerase alpha}} {{c2::adds a few bases to a primer}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FJ.E^O>Wg&", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Primase}} {{c2::adds RNA primer for DNA replication}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ld*h4#5%1H", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::HSP 60}} {{c2::folds mitochondrial proteins}} by {{c3::twisting its hydrophobic surfaces}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k)0G9POH}T", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::helicase}} {{c2::pulls DNA apart}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y~-|T<gkSw", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::polymerase delta}} {{c2::adds bases for lagging strand}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z-rPI4}(!L", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::polymerase II}} makes {{c2::mRNA and miRNA}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bjerlx[e_&", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::heterodisomy and isodisomy}} are {{c2::2 different chromosomes from 1 parent vs. 2 replica from 1 parent, respectively}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n`uu7y]sBq", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c3::branch point}} in mRNA is {{c2::an A base in the middle of an intron}}, and is recognized by {{c1::U1 to U6 snRNA.&nbsp;}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wZi[9N8s5B", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::HSP100}} {{c2::detangles proteins but it doesn't refold them.}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "lNZ1vj,_A#", 
+            "note_model_uuid": "64cfef61-8dd8-11e6-859d-d43d7e9a446c", 
+            "tags": []
+        }
+    ]
+}
